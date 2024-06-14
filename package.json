@@ -1,0 +1,33 @@
+{
+  "name": "threejs-ssr",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "gl": "^8.0.2",
+    "jimp": "^0.22.12",
+    "jsdom": "^24.1.0",
+    "three": "^0.126.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/gl": "^6.0.5",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.2",
+    "@types/three": "^0.126.2",
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
