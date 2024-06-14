@@ -51,7 +51,7 @@ app.get("/image", (req: Request, res: Response) => {
   })
 });
 
-// Define root path View Image
+// Define root path html
 app.get("/", (req: Request, res: Response) => {
   res.send("<img style='background-color: black' src='/image'>");
 });
